@@ -4,15 +4,16 @@ import Model from "./Model";
 import "./App.css";
 import Card from "./Card";
 import Loader from "./Loader";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-// AOS.init({
-//   duration: 1300,
-//   easing: "ease-in-out",
-//   once: true,
-//   offset: 40,
-// });
+AOS.init({
+  duration: 800,
+  easing: "ease-in-out",
+  once: false,
+  offset: 35,
+});
+
 
 const App = () => {
   const [screenLoading, setScreenLoading] = useState(false);
@@ -21,7 +22,7 @@ const App = () => {
     setScreenLoading(true);
     setTimeout(() => {
       setScreenLoading(false);
-    }, 5000);
+    },3000 );
   }, []);
 
   return (
