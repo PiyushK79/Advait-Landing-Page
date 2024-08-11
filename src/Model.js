@@ -7,7 +7,7 @@ const Model = () => {
   const width = 500;
 
   return (
-    <div data-aos="fade-in" className="scene lazy" > 
+    <div data-aos="fade-up" className="scene lazy" > 
 
       {windowWidth.current < width ? 
       (
