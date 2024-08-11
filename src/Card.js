@@ -175,7 +175,7 @@ const Card = () => {
      </div>
 
      <div className="bgContent2 select-none">
-      <img data-aos="fade-in" className="relative" loading="lazy" src={poster} alt="" ></img>
+      <img data-aos="slide-left" className="relative" loading="lazy" src={poster} alt="" ></img>
       <div data-aos="fade-in" className="absolute">
       <h2 >In the end,</h2> 
       <h2 >there is only...</h2>
