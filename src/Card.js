@@ -184,7 +184,7 @@ const Card = () => {
 
       <div data-aos="fade-in" className="flex justify-center align-middle select-none m-20">
         <a
-          href="https://catalyst.geca.ac.in"
+          href="https://advait2024.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
