@@ -22,7 +22,7 @@ const App = () => {
     setScreenLoading(true);
     setTimeout(() => {
       setScreenLoading(false);
-    },3000 );
+    },3500 );
   }, []);
 
   return (

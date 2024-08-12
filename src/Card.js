@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import "./App.css";
 import { useLayoutEffect } from "react";
@@ -43,11 +44,17 @@ const Card = () => {
 
   return (
     <>
-    <div className="overflow-hidden frame scroll-smooth">
+    <div className="overflow-hidden frame scroll-smooth select-none">
+      <div className="flex flex-col justify-center align-middle text-center">
+    {/* <iframe className="lg:h-20 sm:8" src="https://lottie.host/embed/09f16763-d21c-4ed4-9da2-7203d39b46f0/O7FBGyJtwM.json"></iframe> */}
+    <iframe className="lg:h-16  h-10" src="https://lottie.host/embed/09f16763-d21c-4ed4-9da2-7203d39b46f0/O7FBGyJtwM.json"></iframe>
+      <p className="text-white lg:text-xl sm:text-md text-center m-3">Scroll down</p>
+      </div>
       {/* //Scrollable */}
       <main id="container" className="select-none scroll-smooth">
+        
         <section  className="horizontal-section bg-[#242424] text-white scroll-smooth">
-
+          
           <video 
           data-aos="fade-in"
             className="lg:w-1/2"
